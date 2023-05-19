@@ -1,0 +1,62 @@
+#info {
+  height: 2em;
+}
+
+#task {
+  position: fixed;
+  bottom: 0;
+  height: 68.97vh;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+}
+
+#task,
+#text {
+  width: 100%;
+}
+
+#task #text {
+  text-align: center;
+  position: relative;
+  height: 4em;
+  overflow-y: scroll;
+  touch-action: none;
+}
+
+#task > * > div {
+  padding: 5px;
+}
+
+#task > #info {
+  font-weight: bold;
+}
+
+#task button {
+  bottom: 80px;
+}
+
+#task #text p {
+  height: 4em;
+}
+
+textarea {
+  width: 100vw;
+  height: 4em;
+  padding: 5px;
+  resize: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.top {
+  flex-grow: 1;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+}

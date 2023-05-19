@@ -1,0 +1,8 @@
+{
+  "name": "parent",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "cd frontend; npm run start",
+    "postinstall": "cd frontend; npm install"
+  }
+}

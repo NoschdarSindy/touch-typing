@@ -1,0 +1,22 @@
+#form {
+  padding: 10px;
+}
+
+#form {
+  width: 100%;
+}
+
+form {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.info {
+  padding-top: 20px;
+  color: red;
+}
+
+.form-element {
+  justify-content: center;
+  margin: 10px 0 !important;
+}
